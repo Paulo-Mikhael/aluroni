@@ -1,6 +1,5 @@
 import Cardapio from 'data/cardapio.json';
 import style from './inicio.module.scss';
-import Menu from 'components/Menu';
 import StylesTema from 'styles/Tema.module.scss';
 import nossaCasa from 'assets/nossa_casa.png';
 
