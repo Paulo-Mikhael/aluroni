@@ -2,8 +2,9 @@ import styles from './Item.module.scss';
 import cardapio from 'data/cardapio.json';
 import classNames from 'classnames';
 import React from 'react';
+import { Prato } from 'types/Prato';
 
-type Props = typeof cardapio[0];
+type Props = Prato;
 
 export default function Item(props: Props) {
   const { title, description, category, size, serving, price, photo } = props;
