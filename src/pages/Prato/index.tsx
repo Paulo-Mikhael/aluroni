@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import styles from './Prato.module.scss';
 import { useParams, useNavigate, Routes, Route } from 'react-router-dom';
 import Cardapio from 'data/cardapio.json';
